@@ -6,6 +6,10 @@ import Business from "../assets/images/business.svg"
 import Briefcase from  "../assets/images/briefcase-alt.svg"
 import LogoImage from "../assets/images/logoimg.png"
 import HomeImage from "../assets/images/homeimg.png"
+import Logo from "../assets/images/vasquezLogo.png"
+import Telefono from "../assets/images/phone.svg"
+import Location from "../assets/images/location.svg"
+import Envelope from "../assets/images/envelope.svg"
 
 const Home = () => {
     return (
@@ -108,6 +112,53 @@ const Home = () => {
                         </div>
                     </div>
                 </div> 
+            </section>
+            <section className={styles.seccion5}>
+                <h2>¿Necesita una defensa estratégica?</h2>
+                <span>Estamos listos para analizar su caso y ofrecerle el mejor camino jurídico. Agende su consulta hoy mismo.</span>
+                <p>SOLICITAR CONSULTA AHORA</p>
+            </section>
+
+            <section className={styles.seccion6}>
+                <div className={styles.seccion6t}>
+                    <div className={styles.seccion6tleft}>
+                        <Image src={Logo} 
+                        alt="Logo"
+                        width={300}></Image>
+                        <span>liderazgo jurídico basado en la ética y la excelencia técnica. Representamos sus intereses con determinacion.</span>
+                    </div>
+                    <div className={styles.seccion6sec}>
+                        <p>SERVICIOS</p>
+                        <span>Derecho Laboral</span>
+                        <span>Derecho Civil</span>
+                        <span>Derecho Comercial</span>
+                        <span>Derecho Corporativo</span>
+                    </div>
+                    <div className={styles.seccion6sec}>
+                        <p>CONTACTO</p>
+                        <div className={styles.med}>
+                            <Image src={Location} alt="Ubicacion" width={20} height={20}></Image>
+                            <span>Bogotá</span>
+                        </div>
+                        <div className={styles.med}>
+                            <Image src={Envelope} alt="Email" width={20} height={20}></Image>
+                            <span>velasquezasso@gmail.com</span>
+                        </div>
+                        <div className={styles.med}>
+                            <Image src={Telefono} alt="Telefono" width={20} height={20}></Image>
+                            <span>+57 322 712 1745</span>
+                        </div>
+                    </div>
+                    <div className={styles.seccion6sec}>
+                        <p>LEGAL</p>
+                        <span>Ubicacion</span>
+                        <span>Politica de Privacidad</span>
+                        <span>Terminos y Condiciones</span>
+                    </div>
+                </div>
+                <div className={styles.seccion6b}>
+                    <span>© 2025 Vásquez & Asociados Abogados. Todos los derechos reservados</span>
+                </div>
             </section>
         </>
     )

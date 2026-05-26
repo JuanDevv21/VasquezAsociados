@@ -29,7 +29,7 @@
 .herodiv span {
   width: 600px;
   font-family: 'Inter';
-  color: #4E5D6C;
+  color: #5e758d;
   font-size: 20px;
   margin-bottom: 30px;
 }
@@ -298,4 +298,107 @@
   color: #C5A059;
   font-family: 'Inter';
   font-size: 14px;
+}
+
+.seccion5 {
+  height: 550px;
+  margin-top: 200px;
+  color: white;
+  background-image: url("../assets/images/sprinkle.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion5 h2 {
+  font-family: 'Playfair';
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.seccion5 span {
+  font-size: 20px;
+  width: 600px;
+  text-align: center;
+  font-family: 'Inter';
+  color: #5e758d;
+  margin-bottom: 80px;
+}
+
+.seccion5 p {
+  padding: 20px 40px;
+  letter-spacing: 2px;
+  background-color: #756038;
+  font-family: 'Inter';
+  cursor: pointer;
+}
+
+.seccion5 p:hover {
+  background-color: #C5A059;
+}
+
+.seccion6 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+.seccion6t {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.seccion6tleft {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion6tleft span {
+  font-family: 'Inter';
+  font-size: 14px;
+  color: #1B2A41;
+text-align: center;
+}
+
+.seccion6sec {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter';
+}
+
+.med{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.seccion6sec p {
+  color: #C5A059;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.seccion6sec span {
+  color: #1B2A41;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.seccion6b {
+  color: #1B2A41;
+  font-family: 'Inter';
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: end;
 }
