@@ -9,7 +9,53 @@
     --foreground: #ededed;
   }
 }
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Inter/static/Inter_18pt-Regular.ttf') format('trueType'); 
+}
 
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../assets/fonts/Inter/static/Inter_18pt-Bold.ttf') format('trueType'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../assets/fonts/Inter/static/Inter_18pt-ExtraBold.ttf') format('trueType'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Playfair';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('trueType'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Playfair';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../assets/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf') format('trueType'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Playfair';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../assets/fonts/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf') format('trueType'); 
+}
 html {
   height: 100%;
 }
